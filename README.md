@@ -14,10 +14,10 @@ Installation
 
 Clone this repo, and then run:
 
-  virtualenv virtualenv
-  source virtualenv/bin/activate
-  pip install -r requirements.txt
+    virtualenv virtualenv
+    source virtualenv/bin/activate
+    pip install -r requirements.txt
 
 Usage:
 
-  python mailmark.py <mailing list archive url> <email address>
+    python mailmark.py <mailing list archive url> <email address>
