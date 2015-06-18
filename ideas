@@ -1,0 +1,16 @@
+Figure out average sentence/paragraph/email size and mimic it.
+Format the generated text to look like an email
+Pull in other data sources:
+  - facebook
+  - twitter
+  - google groups
+  - slack
+Pick a "topic word", and expand sentences in either direction from there, occaisionally coming back to the
+topic word.
+Use TFIDF to match up emails about specific topics, and use those as a more targetted corpus
+
+Basic process
+- user gives url to mailman archives
+- download and cache mailman archives.  Don't redownload
+- Choose which email address from a list - sort by frequency
+- Generate a sample email, with a refresh button
